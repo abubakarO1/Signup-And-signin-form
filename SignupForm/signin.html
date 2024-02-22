@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signin Forms</title>
+    <link rel="stylesheet" href="FormStyle.css">
+    <script src="script.js" defer></script>
+</head>
+<body style="background-color: #66A5AD;">
+    <div class="container">
+        <div class="signin-form">
+            <h2>Signin Form</h2>
+            <form id="signinForm">
+                <div class="form-group">
+                    <label for="sign-email">Email:</label>
+                    <input type="email" id="sign-email" name="sign-email" required>
+                </div>
+                <div class="form-group">
+                    <label for="sign-password">Password:</label>
+                    <input type="password" id="sign-password" name="sign-password" required>
+                </div>
+                <div class="form-group">
+                    <button type="button" onclick="signin()">Signin</button>
+                </div>
+                <div>
+                    Don't have an account? <a href="registrationForm.html">Sign up</a>
+                </div>
+            </form>
+            <div id="sign-message"></div>
+        </div>
+    </div>
+
+    
+</body>
+</html>
